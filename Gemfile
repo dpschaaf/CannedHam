@@ -17,6 +17,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 gem "slim-rails"
+gem "dotenv-rails"
 
 ## JAVASCRIPT ##
 gem 'uglifier', '>= 1.3.0'

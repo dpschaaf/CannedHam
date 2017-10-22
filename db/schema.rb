@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171020180048) do
+ActiveRecord::Schema.define(version: 20171022200925) do
 
   create_table "cities", force: :cascade do |t|
     t.integer "county_id"
@@ -37,6 +37,7 @@ ActiveRecord::Schema.define(version: 20171020180048) do
     t.string "abbreviation"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "param"
   end
 
 end

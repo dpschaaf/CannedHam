@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   get '*path', to: 'counties#show', constraints: CountyConstraint.new
   get '*path', to: 'states#show', constraints: StateConstraint.new
 
-  root to: 'states#index'
+  root to: 'home#index'
 end

@@ -29,14 +29,20 @@ CSV.foreach(file, headers: true) do |row|
       state.abbreviation = row[2]
       state.save!
       puts "State #{state.name} created"
+      SeoLandingPage.create_from_state(state)
     end
 
-    county = County.new
-    county.name = row[4].gsub(Regexp.new(' \(.+\)| County'), '')
-    county.state = state
-    unless County.where(name: county.name, state: county.state).first
+    name = County.parse_name(row[4])
+    county_query = state.counties.where(name: name)
+    if county_query.empty?
+      county = County.new
+      county.state = state
+      county.name = name
       county.save!
       puts "Created #{county.name}"
+      SeoLandingPage.create_from_county(county)
+    else
+      county = county_query.first
     end
     
     city = City.where(zip_code: row[6], name: row[1]).first
@@ -53,6 +59,8 @@ CSV.foreach(file, headers: true) do |row|
 
       n += 1
       puts "Created ##{n} - #{city.name}"
+
+      SeoLandingPage.create_from_city(city)
     end
   rescue StandardError => error
     id = row[11]
@@ -64,11 +72,10 @@ end
 
 if failures.empty?
   "No failures"
+  "States: #{State.count}"
+  "Counties: #{County.count}"
+  "Cities: #{City.count}"
 else
   "Experienced #{failures.count} failures:"
   puts failures
 end
-
-SeoLandingPage.create_state_landing_pages
-SeoLandingPage.create_county_landing_pages
-SeoLandingPage.create_city_landing_pages

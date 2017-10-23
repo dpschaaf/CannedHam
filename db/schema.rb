@@ -33,10 +33,10 @@ ActiveRecord::Schema.define(version: 20171023000507) do
   end
 
   create_table "seo_landing_pages", force: :cascade do |t|
-    t.string "path"
     t.integer "state_id"
     t.integer "county_id"
     t.integer "city_id"
+    t.string "path"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["city_id"], name: "index_seo_landing_pages_on_city_id"

@@ -2,4 +2,8 @@ class City < ApplicationRecord
   belongs_to :county
   belongs_to :state
   has_many :seo_landing_pages
+
+  def to_seo_param
+    name.parameterize
+  end
 end

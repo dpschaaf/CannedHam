@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171022203418) do
+ActiveRecord::Schema.define(version: 20171023000507) do
 
   create_table "cities", force: :cascade do |t|
     t.integer "county_id"
@@ -31,6 +31,12 @@ ActiveRecord::Schema.define(version: 20171022203418) do
     t.string "name"
     t.string "param"
     t.index ["state_id"], name: "index_counties_on_state_id"
+  end
+
+  create_table "seo_landing_pages", force: :cascade do |t|
+    t.string "path"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "states", force: :cascade do |t|

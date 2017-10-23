@@ -29,7 +29,6 @@ ActiveRecord::Schema.define(version: 20171023000507) do
   create_table "counties", force: :cascade do |t|
     t.integer "state_id"
     t.string "name"
-    t.string "param"
     t.index ["state_id"], name: "index_counties_on_state_id"
   end
 
@@ -44,8 +43,6 @@ ActiveRecord::Schema.define(version: 20171023000507) do
     t.string "abbreviation"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "param"
-    t.index ["param"], name: "index_states_on_param"
   end
 
 end

@@ -27,7 +27,6 @@ CSV.foreach(file, headers: true) do |row|
       state = State.new
       state.name = row[3]
       state.abbreviation = row[2]
-      state.param = state.name.parameterize
       state.save!
       puts "State #{state.name} created"
     end
@@ -35,10 +34,9 @@ CSV.foreach(file, headers: true) do |row|
     county = County.new
     county.name = row[4].gsub(Regexp.new(' \(.+\)| County'), '')
     county.state = state
-    county.param = "#{county.name.parameterize}#{CountyConstraint::COUNTY_SUFFIX}-#{county.state.param}"
     unless County.where(name: county.name, state: county.state).first
       county.save!
-      puts "Created #{county.name} - #{county.param}"
+      puts "Created #{county.name}"
     end
     
     city = City.where(zip_code: row[6], name: row[1]).first
@@ -60,7 +58,7 @@ CSV.foreach(file, headers: true) do |row|
     id = row[11]
     failures << id
     puts error.backtrace
-    puts "Could not create city: #{id}"
+    puts "Failed to create city: #{id}"
   end
 end
 
@@ -71,3 +69,6 @@ else
   puts failures
 end
 
+SeoLandingPage.create_state_landing_pages
+SeoLandingPage.create_county_landing_pages
+SeoLandingPage.create_city_landing_pages

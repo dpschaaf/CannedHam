@@ -27,21 +27,18 @@ CSV.foreach(file, headers: true) do |row|
       state = State.new
       state.name = row[3]
       state.abbreviation = row[2]
+      state.param = state.name.parameterize
       state.save!
       puts "State #{state.name} created"
     end
 
-    county_attributes = {
-      name: row[4],
-      state: state
-    }
-    county = County.where(county_attributes).first 
-    unless county
-      county = County.new
-      county.name = row[4]
-      county.state = state
+    county = County.new
+    county.name = row[4].gsub(Regexp.new(' \(.+\)| County'), '')
+    county.state = state
+    county.param = "#{county.name.parameterize}#{CountyConstraint::COUNTY_SUFFIX}-#{county.state.param}"
+    unless County.where(name: county.name, state: county.state).first
       county.save!
-      puts "County #{county.name} created"
+      puts "Created #{county.name} - #{county.param}"
     end
     
     city = City.where(zip_code: row[6], name: row[1]).first

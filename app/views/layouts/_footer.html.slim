@@ -1,0 +1,5 @@
+footer.blog-footer
+  
+  - State.all.sort_by(&:name).each do |state|
+    a href="#{state_path(state)}" = state.name
+

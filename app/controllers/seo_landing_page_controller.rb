@@ -1,0 +1,2 @@
+class SeoLandingPageController < ApplicationController
+end

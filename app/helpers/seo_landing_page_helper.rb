@@ -1,0 +1,2 @@
+module SeoLandingPageHelper
+end

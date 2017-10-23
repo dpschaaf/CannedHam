@@ -4,8 +4,7 @@ Rails.application.routes.draw do
   resources :cities
   resources :metals
 
-  get '*path', to: 'counties#show', constraints: CountyConstraint.new
-  get '*path', to: 'states#show', constraints: StateConstraint.new
+  resources :seo_landing_pages, only: [:show]
 
   root to: 'home#index'
 end

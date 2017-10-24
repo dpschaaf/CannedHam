@@ -6,5 +6,7 @@ Rails.application.routes.draw do
 
   resources :seo_landing_pages, only: [:show]
 
+  get '/*path', to: 'seo_landing_pages#show'
+
   root to: 'home#index'
 end

@@ -20,7 +20,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'slim-rails'
 gem "trailblazer-cells"
-gem "cells-hamlit"
+gem "cells-slim"
 gem "cells-rails"
 
 ## JAVASCRIPT ##

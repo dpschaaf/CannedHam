@@ -2,7 +2,7 @@ class SeoLandingPagesController < ApplicationController
   def show
     seo_landing_page = SeoLandingPage.where(path: params[:path]).first
     render html: cell(Location::Cell::Show, seo_landing_page,
-      layout: Pro::Cell::Layout)
+      layout: CannedHam::Cell::Layout)
   end
 end
 
@@ -13,6 +13,6 @@ end
 
 #   render html: cell(Comment::Cell::Show, comment,
 #     context: { current_user: current_user },
-#     layout:  Pro::Cell::Layout
+#     layout:  CannedHam::Cell::Layout
 #     )
 # end

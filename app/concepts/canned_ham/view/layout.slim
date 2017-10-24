@@ -7,7 +7,8 @@ html
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   body
-    = cell(Pro::Cell::Header, nil)
-    = yield
-    = cell(Pro::Cell::Footer, nil)
+    = cell(CannedHam::Cell::Header, nil)
+    main.container role='main'
+      = yield
+    = cell(CannedHam::Cell::Footer, nil)
 

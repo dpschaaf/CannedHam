@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 20171023000507) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "cities", force: :cascade do |t|
     t.integer "county_id"
     t.integer "state_id"

@@ -1,5 +1,4 @@
 footer.blog-footer
-  
-  - State.all.sort_by(&:name).each do |state|
-    a href="#{state_path(state)}" = state.name
-
+  - footer_group.sort_by(&:name).each do |state|
+    p
+      a href="/#{state.seo_landing_pages.first.path}" = state.name

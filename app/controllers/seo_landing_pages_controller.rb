@@ -5,14 +5,3 @@ class SeoLandingPagesController < ApplicationController
       layout: CannedHam::Cell::Layout)
   end
 end
-
-
-# class CommentsController < ApplicationController
-# def show
-#   comment = Comment.find(params[:id])
-
-#   render html: cell(Comment::Cell::Show, comment,
-#     context: { current_user: current_user },
-#     layout:  CannedHam::Cell::Layout
-#     )
-# end

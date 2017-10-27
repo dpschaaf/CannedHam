@@ -30,4 +30,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  header:
+    h1: Aluminum Scrap Metal Prices
+    sub_heading: Get the best price for your scrap aluminum
+  footer:

@@ -1,5 +1,4 @@
-class CannedHam::Cell::Header < Trailblazer::Cell
-  def show
-    render
+class CannedHam::Cell
+  class Header < CannedHam::Cell
   end
 end

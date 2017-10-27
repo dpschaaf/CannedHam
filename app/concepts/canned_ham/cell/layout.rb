@@ -1,3 +1,5 @@
-class CannedHam::Cell::Layout < Trailblazer::Cell
-  include ActionView::Helpers::CsrfHelper
+class CannedHam::Cell
+  class Layout < Cell
+    include ActionView::Helpers::CsrfHelper
+  end
 end

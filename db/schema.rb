@@ -10,18 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171023000507) do
+ActiveRecord::Schema.define(version: 20171028014222) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "cities", force: :cascade do |t|
-    t.integer "county_id"
-    t.integer "state_id"
+    t.bigint "county_id"
+    t.bigint "state_id"
     t.string "name"
-    t.string "zip_code"
-    t.decimal "latitude"
-    t.decimal "longitude"
+    t.string "zip_codes", default: [], array: true
     t.integer "population"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -30,15 +28,24 @@ ActiveRecord::Schema.define(version: 20171023000507) do
   end
 
   create_table "counties", force: :cascade do |t|
-    t.integer "state_id"
+    t.bigint "state_id"
     t.string "name"
     t.index ["state_id"], name: "index_counties_on_state_id"
   end
 
+  create_table "lat_longs", force: :cascade do |t|
+    t.bigint "city_id"
+    t.decimal "latitude"
+    t.decimal "longitude"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["city_id"], name: "index_lat_longs_on_city_id"
+  end
+
   create_table "seo_landing_pages", force: :cascade do |t|
-    t.integer "state_id"
-    t.integer "county_id"
-    t.integer "city_id"
+    t.bigint "state_id"
+    t.bigint "county_id"
+    t.bigint "city_id"
     t.string "path"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -55,4 +62,11 @@ ActiveRecord::Schema.define(version: 20171023000507) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "cities", "counties"
+  add_foreign_key "cities", "states"
+  add_foreign_key "counties", "states"
+  add_foreign_key "lat_longs", "cities"
+  add_foreign_key "seo_landing_pages", "cities"
+  add_foreign_key "seo_landing_pages", "counties"
+  add_foreign_key "seo_landing_pages", "states"
 end

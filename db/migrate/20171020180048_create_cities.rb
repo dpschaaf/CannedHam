@@ -16,7 +16,7 @@ class CreateCities < ActiveRecord::Migration[5.1]
       t.belongs_to :county, index: true
       t.belongs_to :state, index: true
       t.string :name
-      t.string :zip_code
+      t.string :zip_codes, array: true, default: []
       t.decimal :latitude
       t.decimal :longitude
       t.integer :population

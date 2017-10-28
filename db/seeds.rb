@@ -10,6 +10,8 @@ require 'csv'
 State.destroy_all
 County.destroy_all
 City.destroy_all
+LatLong.destroy_all
+SeoLandingPage.destroy_all
 
 filename = 'uscitiesv1.3.csv'
 file = File.join(Rails.root, 'db', 'seed_data', filename)
@@ -45,16 +47,23 @@ CSV.foreach(file, headers: true) do |row|
       county = county_query.first
     end
     
-    city = City.where(zip_code: row[6], name: row[1]).first
+    zip_codes = (row[6] || '').split(' ')
+    city = City.where(state: state, name: row[1]).first
     unless city
       city = City.new
       city.name = row[1]
-      city.zip_code = row[6]
-      city.latitude = row[7]
-      city.longitude =row[8]
+      city.zip_codes = zip_codes
       city.population = row[9]
       city.county = county
       city.state = state
+
+      lat_long = LatLong.new
+      lat_long.latitude = row[7]
+      lat_long.longitude = row[8]
+      lat_long.save
+
+      city.lat_long = lat_long
+
       city.save!
 
       n += 1

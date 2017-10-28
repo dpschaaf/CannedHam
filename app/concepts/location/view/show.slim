@@ -12,10 +12,16 @@ main.container role='main'
         p.blog-post-meta October 21, 2017
         p We checked your area for local scrap yards to sell your aluminum scrap. This is what we found:
         iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=scrap%20metal%20near%20San%20Francisco%2C%20CA&key=AIzaSyCfvfTfpGeE108CeTMY3l-uYlKaLIVpUJo&zoom=10" allowfullscreen=""
+      article#places.blog-ppost
+        h2.blog-post-title Search
+        p.blog-post-meta October 21, 2017
+
+        div.js-places data-url="#{place_path(place.to_param)}"
       article#prices.blog-post
         h2.blog-post-title Prices
         p.blog-post-meta October 21, 2017
         p The below prices are 
+
         table.table
           thead
             tr

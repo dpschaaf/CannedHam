@@ -1,0 +1,239 @@
+---
+address_components:
+  - long_name: '118'
+    short_name: '118'
+    types:
+    - street_number
+  - long_name: Paseo De San Antonio Walk
+    short_name: Paseo De San Antonio Walk
+    types:
+    - route
+  - long_name: Central San Jose
+    short_name: Central San Jose
+    types:
+    - neighborhood
+    - political
+  - long_name: San Jose
+    short_name: San Jose
+    types:
+    - locality
+    - political
+  - long_name: Santa Clara County
+    short_name: Santa Clara County
+    types:
+    - administrative_area_level_2
+    - political
+  - long_name: California
+    short_name: CA
+    types:
+    - administrative_area_level_1
+    - political
+  - long_name: United States
+    short_name: US
+    types:
+    - country
+    - political
+  - long_name: '95112'
+    short_name: '95112'
+    types:
+    - postal_code
+adr_address: <span class="street-address">118 Paseo De San Antonio Walk</span>, <span
+  class="locality">San Jose</span>, <span class="region">CA</span> <span class="postal-code">95112</span>,
+  <span class="country-name">USA</span>
+formatted_address: 118 Paseo De San Antonio Walk, San Jose, CA 95112, USA
+formatted_phone_number: "(408) 971-4212"
+geometry:
+  location:
+    lat: 37.3336067
+    lng: -121.8848985
+  viewport:
+    northeast:
+      lat: 37.3350261802915
+      lng: -121.8835592197085
+    southwest:
+      lat: 37.3323282197085
+      lng: -121.8862571802915
+icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+id: 683e55a1e9fb74d0ebddd239e48c46942d960468
+international_phone_number: "+1 408-971-4212"
+name: Philz Coffee
+opening_hours:
+  open_now: true
+  periods:
+    - close:
+        day: 0
+        time: '2100'
+      open:
+        day: 0
+        time: '0700'
+    - close:
+        day: 1
+        time: '2100'
+      open:
+        day: 1
+        time: '0630'
+    - close:
+        day: 2
+        time: '2100'
+      open:
+        day: 2
+        time: '0630'
+    - close:
+        day: 3
+        time: '2100'
+      open:
+        day: 3
+        time: '0630'
+    - close:
+        day: 4
+        time: '2100'
+      open:
+        day: 4
+        time: '0630'
+    - close:
+        day: 5
+        time: '2100'
+      open:
+        day: 5
+        time: '0630'
+    - close:
+        day: 6
+        time: '2100'
+      open:
+        day: 6
+        time: '0700'
+  weekday_text:
+    - 'Monday: 6:30 AM – 9:00 PM'
+    - 'Tuesday: 6:30 AM – 9:00 PM'
+    - 'Wednesday: 6:30 AM – 9:00 PM'
+    - 'Thursday: 6:30 AM – 9:00 PM'
+    - 'Friday: 6:30 AM – 9:00 PM'
+    - 'Saturday: 7:00 AM – 9:00 PM'
+    - 'Sunday: 7:00 AM – 9:00 PM'
+photos:
+  - height: 2268
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/100690011226453468450/photos">James
+      McCann</a>
+    photo_reference: CmRaAAAAn6QsT2oyoXAoeYsM-X9-30_7huvm4plcAl7IkIAThf5qLZ3-IU7u3cTBFJx9K90u_Dc6VOFgUGE4rI-l3X9KqdDgi0MBVaSc1aF2WffWsyNckn6q13IN_kGNql5SI75rEhDblY26gYmV8-NOyiDMna3YGhSsznaMg7KPp18wZuQrqbwSf5Okqg
+    width: 4032
+  - height: 2988
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/107924188626794422696/photos">Ryan
+      Kingsland</a>
+    photo_reference: CmRaAAAAPu-kT_gG5sVo5hkbeG3Co4sNqyitNSCAl7yEdJXFb-MDaLldl3elAb3OmQH3jlgLb0p5b53sWobxW3-3T_Pc87hb_fowhKhkLARb4nKXIMqaBBTmx3TieNmJ1VXxW5RPEhAOz2BKFUT-wwmIdYNFm_oGGhSFXHJ7tBwAx5NucjkMHO6kEPnPjw
+    width: 5312
+  - height: 1920
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/110098222254451463976/photos">Henish
+      Savaliya</a>
+    photo_reference: CmRaAAAAuqHB2IVg9kDjruOoSisuo1Gj0d4ppwyT5U176rUMoysgufVXZAICwXfzztZYfNOmezId7zI-YoysONgKv5UxnjwRjbWPrg_ihCWWCK0L4hyVbZPEheYNFU5zzPX2Dm05EhAoHb3-rG4RXlbj7J86irxqGhQBg623jw8eedbwz7h7psoiMkOUmA
+    width: 1080
+  - height: 4032
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/105621199282575051495/photos">Kai
+      Du</a>
+    photo_reference: CmRZAAAARHFDjsZEuy_KLLWZkKu4JkPGhkkCtaHPNEIrAR4Vd8qBAGUa6GL9H-FKx7QGDC2eC_E-hu2M-OapR_omyoUCHNMH7IxQHVRxaP-UewOTquI_59FEcRkoE-Cr9k5wp9x3EhCglrqGgApkHfPBSGsyy94eGhQgAJojd-kXzEKpjiN8shPVXcPHUg
+    width: 3024
+  - height: 3024
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/107229544787252357703/photos">johnny
+      fung</a>
+    photo_reference: CmRaAAAA8IBFXclGgy0-OPYH3ItMH7UlLgAX3DFrvIjdmYLh9p0L_Lk4kpAsYTdt7H0hVQH2B32Cfkq47cz0OOlN2J7BRAMyPJCoA96UVzD-HpWifqlO27Sey_QfX8fczh7iNwc2EhBl3chzCqY3-YDxooytI1VUGhSit6SKKAHG9U_cAZMF1C5OAlYEGQ
+    width: 4032
+  - height: 874
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/117359515932319875191/photos">Harry
+      Hermawan</a>
+    photo_reference: CmRaAAAAq46qwfUvw7IbpHWBnUF9fje_AHmwgQE9gCEjmndtUrX7pyvGR6cT80_KqCoHD9BJjaNhEnunDbuRiyZ-gghQ5RO9b4D_D4PhfU7LtNjYL9ydcCXzFls9-byLztqo9I-hEhB9uWB7LykqtF_9r9FesJC8GhTMDeRuQxjgGVSScFhH782igh_ogw
+    width: 656
+  - height: 4096
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/101075367388701077847/photos">Kata
+      Crea</a>
+    photo_reference: CmRaAAAADGkqs6jUW5YzAIzhB1j78OK-57Uj8LOV4-6nhayAk26kz-252mbLjC19wFGyt3q4QATX9M09BAfLH5M3Lpcieh-wBeRbnLShdwFUVVDNoibVZLUGH-XsV7YTKWVlUvFVEhDk5sb3p50o20VhNV873KLIGhTiulWOVOExgea5tPnftVR3VuZUSA
+    width: 2368
+  - height: 2976
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/105090613822714469590/photos">譚介堯</a>
+    photo_reference: CmRaAAAAixv2ywlLCfKL_XtiBRhKQ97lL__VE_8jBdtCWn-hKEpw3mMy7ICkr-KBKWIUrg6IIy6a9CJmvw40IrWypsKaqMoCxjo6na3mjgGbxlYlcTuYVxg9fFjjTfKmnXRxdAINEhAoNsSHlaiOS42p5xNLFgzTGhTK1JUP52DOeF2FngnSYgGzO7752g
+    width: 3968
+  - height: 2432
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/110473895801721365400/photos">Catherine
+      Shen</a>
+    photo_reference: CmRaAAAAQ_SZByCUWbViM_FKzLN_tXKQswp_3MOo3zAaDVKjlePzVlItHs7uPCMJmCL4vWRXECl6NzJgrTEvBSRJUJkS496g6-43oQTDjqDo-3AIA3b7bKcjpW9E0oCEfhLALx-bEhCKoD_uu0KmMTzIE9KunMXPGhSls61SacpVXgA936PkBFADzKSoWw
+    width: 4320
+  - height: 3480
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/108610900973352691642/photos">John
+      Smith</a>
+    photo_reference: CmRaAAAA0-LVYlfzxGUalgfGoaOtKAHhKCNAuS7hol1nn1lIxijLpThMnE2dbzqc3C7pjbmHaqEc_6zfBdPYP1t4YWRv9xrzGHMRz3SMk5lPOeMh5GAWMU8pcwavEWZbapsCpCRoEhCKVqXzv_xvjaIUsCF26tv7GhS2oobC1HV__AxRIfX_xv5urkYZLA
+    width: 4640
+place_id: ChIJt_gW1bvMj4AR6XY_0N9JiqQ
+price_level: 1
+rating: 4.6
+reference: CmRSAAAAH2E-cpv2mH86CFYxMepT16Birs2FJG5_1Ya34sxGdoeECoQizMK-tpghSw76bDtIUMRcjGPWs_cM0Wf-NsPC_4OmW3sNddUDY6jUwad5GcvmA83AJNRSY5KZ2Fsm7c3ZEhC0z4dkr5lrpriAjMIOFWnhGhRTXJTwZWQHSGCdxqtRog-TdG1BtQ
+reviews:
+  - author_name: Jake Davis
+    author_url: https://www.google.com/maps/contrib/103788242544390205617/reviews
+    language: en
+    profile_photo_url: https://lh4.googleusercontent.com/-NR9Zm_oG3Go/AAAAAAAAAAI/AAAAAAAAApc/ozQ4mVXr3LA/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg
+    rating: 3
+    relative_time_description: a month ago
+    text: great coffee here, I like the choices in blends. the consistency is not there
+      anymore though,  I used to get very similar service and coffee in the past or
+      from friends who work here but in recent days the downtown location has been inconsistent
+      in what the coffee taste like or what the levels of sweetness and cream are. Work
+      on being consistent.
+    time: 1504224101
+  - author_name: Venkata Bharadwaj Senapathi
+    author_url: https://www.google.com/maps/contrib/105240915316717136992/reviews
+    language: en
+    profile_photo_url: https://lh3.googleusercontent.com/-as2s5FzMU5o/AAAAAAAAAAI/AAAAAAAAAAA/ANQ0kf7VYrXyX-3zbEPQp2NOj02QBfXGow/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg
+    rating: 5
+    relative_time_description: 2 weeks ago
+    text: "Best coffee place at Downtown Sanjose. \nOffers a fancy variety of flavoured
+      coffee.\n\nTry the mint mozito on a hot day and any mint hot drink in the evening!\nHappy
+      coffee.."
+    time: 1507762075
+  - author_name: E A
+    author_url: https://www.google.com/maps/contrib/115212787681254885310/reviews
+    language: en
+    profile_photo_url: https://lh5.googleusercontent.com/-lFDBU0C8rjM/AAAAAAAAAAI/AAAAAAAAAAA/ANQ0kf7ISho8LMhUc3tEFcCYZkuiolKVfw/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg
+    rating: 5
+    relative_time_description: a month ago
+    text: I forgot my wallet one day and they let me come back to pay later!!! That
+      was super nice of them because it was my fault I forgot my wallet and they trusted
+      me to come back. I needed my coffee so thanks philz team!!
+    time: 1506094260
+  - author_name: Farrokh Shayegan
+    author_url: https://www.google.com/maps/contrib/104853522578104949984/reviews
+    language: en
+    profile_photo_url: https://lh5.googleusercontent.com/-jDX2JBHjC1U/AAAAAAAAAAI/AAAAAAAAAOk/3S7roGC0gSk/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg
+    rating: 2
+    relative_time_description: a month ago
+    text: Philz gas great coffee. But internet is intermittent in this coffee shop.
+      Also not rest room. Since I go to coffee shops to work, sorry, I give 2 stars.
+    time: 1506219088
+  - author_name: Matt Strand
+    author_url: https://www.google.com/maps/contrib/104273930938594816515/reviews
+    language: en
+    profile_photo_url: https://lh6.googleusercontent.com/-4Hofh4qVgkE/AAAAAAAAAAI/AAAAAAAAAAA/ANQ0kf5VN-ZSUkyY44wdD01mET82jRr_EA/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg
+    rating: 5
+    relative_time_description: 3 weeks ago
+    text: Omg, Philz>Peet's every time. And don't even bring your Starbucks into this
+      discussion. Talk about coffee with purpose... Their mocha tesora blend is sensible
+      and complex enough to be an entree! It needs its own side dish
+    time: 1507216945
+scope: GOOGLE
+types:
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment
+url: https://maps.google.com/?cid=11856370194626606825
+utc_offset: -420
+vicinity: 118 Paseo De San Antonio Walk, San Jose
+website: http://www.philzcoffee.com/

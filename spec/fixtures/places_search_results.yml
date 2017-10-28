@@ -1,0 +1,690 @@
+---
+results:
+- formatted_address: 10599 Lake Rd, Bottineau, ND 58318, United States
+  geometry:
+    location:
+      lat: 48.9502603
+      lng: -100.3820075
+    viewport:
+      northeast:
+        lat: 48.9517601802915
+        lng: -100.3802623197085
+      southwest:
+        lat: 48.9490622197085
+        lng: -100.3829602802915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: bfca8758993582c066f1518a576668729306640a
+  name: Penelope's Coffee & Eatery
+  photos:
+  - height: 1150
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/112705523385077383317/photos">Penelope&#39;s
+      Coffee &amp; Eatery</a>
+    photo_reference: CmRaAAAAcHFaP-nWRYjd9tktHkYj-fNh8mUhRLQLaCDL0lAHb486BjRrhixb9bO7lqouTmaJ8Q4KDsAdG6b-jsRiRt2vviAPpzGEb00WreCTUOqi17qpKcQTG-iJ7lzpbAHDu52lEhAeqoKsOwLbB4vW1r38AwQLGhRdbdqUnu_OMQIqw8_M-_ulkYBNkw
+    width: 2048
+  place_id: ChIJ8YxBxY7L3VIRGR_hnG_zZhs
+  rating: 5
+  reference: CmRRAAAAuejIYed7xWzp-oqoqMIxuGpcAnG8KgXMVFBfTscZYKTMHJDk06LA2jF3mPS0i93Ds-1akGhV8rWAAMGveuS70GaWYjAuUZNxQfc7LwT1rJTKWaj_fzoLdRhQBKbFdfxoEhCl1qnvA1t4gfrRhn8eyMSXGhRCHrgffzzoHS1UqeQNPaEPYKWIdQ
+  types:
+  - bakery
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment
+- formatted_address: 123 2nd St SE, Rugby, ND 58368, United States
+  geometry:
+    location:
+      lat: 48.3686957
+      lng: -99.9957338
+    viewport:
+      northeast:
+        lat: 48.3700636802915
+        lng: -99.9943849197085
+      southwest:
+        lat: 48.3673657197085
+        lng: -99.99708288029152
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: 80d5fe549c0c9a73e0b56445dc63d3cd178d6cad
+  name: Solid Ground Cafe
+  opening_hours:
+    open_now: true
+    weekday_text: []
+  photos:
+  - height: 2048
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/110160190522250976368/photos">Solid
+      Ground Cafe</a>
+    photo_reference: CmRaAAAAhMKjLdvWXkQEVZrFLv6fGDUD3wyse1xVi-Jv3IfvVR2po-luLxyc2W1zlzclrX-rtvTjXOIAEivoFGyHMyShBq_AjauNfAqlrEwnD9atCPZTBusxieB61JYninBhfGbHEhB--ibDJp4GlmPX6VF-CMsLGhSSPgcY9sSgpZVzyl3IScyDcwAnCg
+    width: 1583
+  place_id: ChIJ27zIkvRz3FIR-LRRk1EDOv4
+  rating: 5
+  reference: CmRSAAAAltaJOXyNrRvF9ej4BNmdVTThRFdEF94WPqkRtJb6WXbfW9pUA9YYgB2pCQNa7aNYdRY09D3OmEYsRvp9miSokMPbQbmgHIys1pCpGlorQxdSbUzXwEMWcxzlTIm2nD_DEhDrW1k30B3ZvXeZr1xuIg-VGhQr8MOB96Oz6gudeRcNbVsn5a2OwA
+  types:
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment
+- formatted_address: 505 Main St, Bottineau, ND 58318, United States
+  geometry:
+    location:
+      lat: 48.8270627
+      lng: -100.4455231
+    viewport:
+      northeast:
+        lat: 48.82841098029149
+        lng: -100.4443871197085
+      southwest:
+        lat: 48.82571301970849
+        lng: -100.4470850802915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: 27607f91fe89b60c2a047fa16c8ad134029ba2da
+  name: Bottineau Pharmacy
+  opening_hours:
+    open_now: true
+    weekday_text: []
+  photos:
+  - height: 1152
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/118401100589254153366/photos">Bottineau
+      Pharmacy</a>
+    photo_reference: CmRaAAAAcMYlPnd-5rPgjvY0YgUDvp0nHe6wIesE9Bpq57qT3qZM-8j_yS7Qoe1sywFo0H-YrB_g03PQ4J9rta6PYE-NsOvXuBjtJ5s5Ywu-UzPmxmqeBmk2CpkFu2Aad7JkpZgzEhCSqvUeVSM4xYGsGg1_LEG8GhSQozO15Z7xSku-MVufAQDxsZwVTg
+    width: 1154
+  place_id: ChIJ57ktTAoy3FIRVB0SP4XwlhU
+  rating: 5
+  reference: CmRRAAAAp4sZDbdeISe0yVZIOSIohQCimHmIoxbw8j7HB6pIb35ZNIHSdteqX-KtKWulKm7EILxBQCQb6f22OzLpkSBx5ZTTxolLCUgrNHEFznFPQMPWMgOeRp8BfUjBeGJ0wQbIEhC2vhe9OcC40SKhASeuCfsuGhS2fp3W00opl6ofDZ5c4PXo2DaDvA
+  types:
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment
+- formatted_address: 298 S Railway St, Boissevain, MB R0K 0E0, Canada
+  geometry:
+    location:
+      lat: 49.2302163
+      lng: -100.0586325
+    viewport:
+      northeast:
+        lat: 49.2316259802915
+        lng: -100.0572816697085
+      southwest:
+        lat: 49.2289280197085
+        lng: -100.0599796302915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: a4bec7b2ef4b2faa57ae2c8cb8c97f4f6ba34c23
+  name: Sawmill Tea & Coffee Co.
+  opening_hours:
+    open_now: true
+    weekday_text: []
+  photos:
+  - height: 3456
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/108346150284847547532/photos">charlotte
+      m</a>
+    photo_reference: CmRaAAAAOxNeg-jle5-Dlz7t4KEiXhxnvaNEP02dtAeXz3nSx0IdAVkNmJKHfptnk6Sk7xNJnguSd8uASGprmq0xWsJlUOEXgJhEUeZFhliMgDPpfO9hlaTPH3Gw1c0IF-nlnVr5EhCZgsxQ81hcolh3GJPB3T7DGhRzPjU_wKOb6ZAPaiS5gfoV3RH-Yg
+    width: 4608
+  place_id: ChIJCdZZDo2h3VIRhVdFgVe2Wb4
+  rating: 4.5
+  reference: CmRSAAAA-77XSEGUT1cpWdqvOWNXZzS6WOG4eJaKzl7XhIUmSyKp_AbDUF1sNILZwjBF7gdEHSVxJz09QqQqfeFlxtxpzRGCzVnpHAQlzxYD_3dj4_4sOZQZ1E7tDuPGksXIyBR4EhBfXV_07g5WMEo2OvALwY0TGhSqgZ3zOkjrq9axiU8feZFTT0IFtQ
+  types:
+  - cafe
+  - food
+  - point_of_interest
+  - establishment
+- formatted_address: 10599 Lake Rd, Bottineau, ND 58318, United States
+  geometry:
+    location:
+      lat: 48.950335
+      lng: -100.381972
+    viewport:
+      northeast:
+        lat: 48.9516788302915
+        lng: -100.3802483197085
+      southwest:
+        lat: 48.9489808697085
+        lng: -100.3829462802915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png
+  id: 76183d5397981a58457c25653cf8fc29d2f6bf40
+  name: Sawmill Corner Stop
+  opening_hours:
+    open_now: true
+    weekday_text: []
+  place_id: ChIJ5SNcII_L3VIRm5pmJW2Jp6k
+  reference: CmRSAAAAlpppKnb7By6G3YLtfcCHfc1pXnRbFRGrd3CHPR-cHhM6lwjYblwWRmzhqpJa0oeeDNFujN72K9r12wkHtJZPN0j27BdAPjxg8BHxY5SVqvK6H23okf062KX0ppdRH77nEhCSa2nfkiyA3LrHyD3Hr5HlGhTjEE4Z51MwFdhawc9cM3Y9spgOSA
+  types:
+  - convenience_store
+  - gas_station
+  - atm
+  - bakery
+  - cafe
+  - food
+  - finance
+  - store
+  - point_of_interest
+  - establishment
+- formatted_address: 738 N Western Ave, Chicago, IL 60612, United States
+  geometry:
+    location:
+      lat: 41.8950617
+      lng: -87.68703529999999
+    viewport:
+      northeast:
+        lat: 41.8964126802915
+        lng: -87.68561096970849
+      southwest:
+        lat: 41.8937147197085
+        lng: -87.6883089302915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: c0bbf63cba51c1f721adf5ca3eedabfd51a94667
+  name: Dark Matter Coffee - The Mothership
+  opening_hours:
+    open_now: true
+    weekday_text: []
+  photos:
+  - height: 4032
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/111264763294941817448/photos">Thea
+      Elena Hanson</a>
+    photo_reference: CmRaAAAAOLCtQugaveSxH91GKjcR7GeSDAYIXaYms9gRM-sBhHaG99pzlXNTrMkq3tE5giDV0U301FzU96QtZkujDPzJb8IHMk9dag6gMablDSUAfhmFoxrPSEav1n3wxil7ElzvEhDMc65rpyjZ8Ml0k6tHk9sxGhRYPM7n3I83bBT3c58lQDKWFcS0mw
+    width: 3024
+  place_id: ChIJWRIIZ00tDogRiM95S7fMqPs
+  price_level: 1
+  rating: 4.7
+  reference: CmRSAAAAxZBV_R6fThNd_MeZGHrLQhsUZuqcO0rRYkisOyh47c4nGdmu-jcXu7iAOZt4slMi0ir_I5png4qj-DtPWXDvQbtvyJw5QohNjXBIE-IdTxjHkRP3av7VQI2RtCb7C0SoEhDCt__ktP1hfx6fgB889i8oGhThXpqOEdLIU6q0Zn2ur-mFX87gGA
+  types:
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment
+- formatted_address: 2124 Vine St, Berkeley, CA 94709, United States
+  geometry:
+    location:
+      lat: 37.88025409999999
+      lng: -122.2683031
+    viewport:
+      northeast:
+        lat: 37.88164723029149
+        lng: -122.2669634197085
+      southwest:
+        lat: 37.87894926970849
+        lng: -122.2696613802915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: 89582638e89a9fb81507d94b00f18ddb1f67c7c2
+  name: Peet's Coffee
+  opening_hours:
+    open_now: true
+    weekday_text: []
+  photos:
+  - height: 3480
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/103398433198863647350/photos">Mark
+      Dombrofski</a>
+    photo_reference: CmRaAAAAY-qNpwZhVl1FL-wn-mnUGdaSMRujq0qKFcKU_vBSHVSIldk9QXTjt3VQhj8cf8HPENBSN7KrKE9GegvV2nQfQFQ1IoRE3SvY1M0g6ANK_ogfnIkmlHsmOl1AjmBb4-RfEhB8GW8-Jh2VS1QMLj-7go5zGhSLR4QOIxwSjSS23o90odR7IqPx3Q
+    width: 4640
+  place_id: ChIJHY0xK6F-hYAROOJj2xznDxs
+  price_level: 1
+  rating: 4.3
+  reference: CmRRAAAAsEPjRSInR9aBrS8sUoXWb3_tKFb0q9gYN_uJp7s5cjsIXuU35MA9jIqVlQb6r0yZyzV-2Y_M5o2B2jjkKOavQAhzlk_EgIj_dZmpcs0ET44iBq4lHZ0befCstGJh9Q0xEhCxqVOYkMOZQ0tHi2ubbuRwGhR6q-CgU_x9GpkTiiMSa1xQmwhwig
+  types:
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment
+- formatted_address: 543 E Calaveras Blvd, Milpitas, CA 95035, United States
+  geometry:
+    location:
+      lat: 37.4345564
+      lng: -121.8980984
+    viewport:
+      northeast:
+        lat: 37.43590538029149
+        lng: -121.8967494197085
+      southwest:
+        lat: 37.43320741970849
+        lng: -121.8994473802915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: 2d4f30d71665faec39fe840b7558a3c7025cc4db
+  name: Peet's Coffee
+  opening_hours:
+    open_now: true
+    weekday_text: []
+  photos:
+  - height: 3936
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/109844852089270959836/photos">DZ
+      Centofanti</a>
+    photo_reference: CmRaAAAA6H2cRT9iqS7zZ80nT9ToZSBPAr9EVtBwORiQHoKrBmCftNos0D8IHlFqOiijBJCeP-uWj7Cm0vcGv7IM9vm-ASZ4XbpVDRGSn3-Ki3nd1gtbQkR_rOYGDGa0hZQ40sQPEhDbcG91rZsiQpEywYCeGBvVGhTlggIL16yjcsmny5omqrTF3tE30w
+    width: 5248
+  place_id: ChIJ5S6iRCrPj4ARp05kNmuFpF8
+  price_level: 1
+  rating: 4.5
+  reference: CmRRAAAATLTnb8e4A4uXC0twFVYhCwkqpE0FZNodGfPL52uhL4vkrRheYJUH_CEM3jd_ZnioXu2c-r5ai8kGNKov0-P5GLzSby0TB1TVAg0PDgsr7wRWnrSF3O3fIG2m3PWauYAEEhD99ZkhmUsTtc1HoQ873kG7GhRy3gNZ59hB1D1BE1bB9FFnICB1AQ
+  types:
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment
+- formatted_address: 2 Embarcadero Center, San Francisco, CA 94111, United States
+  geometry:
+    location:
+      lat: 37.794707
+      lng: -122.398896
+    viewport:
+      northeast:
+        lat: 37.79605598029149
+        lng: -122.3975470197085
+      southwest:
+        lat: 37.7933580197085
+        lng: -122.4002449802915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: '0809fd69004c3256df2fd613790d206826f8b194'
+  name: Peet's Coffee
+  opening_hours:
+    open_now: true
+    weekday_text: []
+  photos:
+  - height: 1200
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/117111418505014074680/photos">Michael
+      Lewis</a>
+    photo_reference: CmRaAAAAhAsTHIGfM6ZshfoqNtgDxw_YBNFyW0CTEyRmys-X_-zPaJMelrkF-vjFICdseew4wH2cOgNxxkRE0sEjLAxtNTKJDjjp_-XlRiXGzZXm7gHw5v6lRgXrJ4Ql4TtSXdWPEhB8mzqwQ2S3T2wyGeSmCYLPGhQpXEnYGur7D14rCVyJW7KsjRVlYQ
+    width: 1600
+  place_id: ChIJZ76fAGGAhYARt65UQHRzxq8
+  price_level: 1
+  rating: 3.8
+  reference: CmRSAAAAbsoBHlRPPoAwjWoxOAHORdhotpgtutwbtEAE5IK555eMdZgxX0Ydomj_EEBof5_rzboDGlDOwDMaBZAKO1nRtVF_2EreWRifk1q3f9bGauJnDtHl_svlCdHR_yrWwUk8EhCb7NDiViiDiZ53y4e6wyL8GhQvXT6oP71YAhmeiW8o-J0f4mDjqA
+  types:
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment
+- formatted_address: 155 Montgomery St, San Francisco, CA 94104, United States
+  geometry:
+    location:
+      lat: 37.79083089999999
+      lng: -122.4024957
+    viewport:
+      northeast:
+        lat: 37.7923678302915
+        lng: -122.4011642197085
+      southwest:
+        lat: 37.7896698697085
+        lng: -122.4038621802915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: 1e30a141d6f1215b125a5c3a6257010cd90f1fd1
+  name: Peet's Coffee
+  opening_hours:
+    open_now: false
+    weekday_text: []
+  photos:
+  - height: 5312
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/110644534706347430845/photos">Jeremy
+      Ward</a>
+    photo_reference: CmRaAAAA8f0k-slL5THvTUROpXrEcnt824Pm88xNkl3RRiVAxQqD3FEC-lesvgsG4E-RXR--7QP1r9A0QNqvHv7Bm54WdB_4E1uRGyzVxakCZhZE6vLuhbsdlNgWZ7rjiGPLMJwuEhAqBOkj5-mLQur3dLlP951EGhTLMoJBrYY5iESE4MGeqMrk-rnfLg
+    width: 2988
+  place_id: ChIJqeR09ImAhYARGfBflMi114A
+  price_level: 1
+  rating: 3.8
+  reference: CmRSAAAANpHYI7dJeDAaj0oPN_Ym_CZsMVCua1XKkpsNRPFkU5-phng-TnOlzadDRMNaH3ZQRev0TVPb_sPK_erzEE0vY7s36w76H6rHoWqsm7YNelK-CE46AYpsaVaIGzKwXDACEhC434FdswEtohSw_uGq9AhHGhTA5O-OetCNl17SWiF7jda9U32VvQ
+  types:
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment
+- formatted_address: 2300 16th St Suite 240, San Francisco, CA 94103, United States
+  geometry:
+    location:
+      lat: 37.76649889999999
+      lng: -122.4091177
+    viewport:
+      northeast:
+        lat: 37.76784788029149
+        lng: -122.4077687197085
+      southwest:
+        lat: 37.76514991970849
+        lng: -122.4104666802915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: 2de29cb67c4d82826a6c44096ab321654099cec0
+  name: Peet's Coffee
+  opening_hours:
+    open_now: true
+    weekday_text: []
+  photos:
+  - height: 3006
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/112107137489644864852/photos">Bruno
+      R</a>
+    photo_reference: CmRaAAAAwHLxUSIvncT9SqrfTov7X7OhFgzpdtgZX26eQJ2NijaVlCFt8YWGUtXq3MZnlUYo5vnkl0J84XXhwR-762J8qVlNTioBRLMAw25m1dIGcIluEs0mnYymq42O9_GMp6tCEhBaNppW5VMERtNEMX9gRbzPGhSnTqIHqwMuobq25MI_SQ3xuSyp3A
+    width: 5344
+  place_id: ChIJ9a3hyi9-j4ARWVa1uRvUBns
+  price_level: 1
+  rating: 3.9
+  reference: CmRRAAAAhIrvuaaAR0H4SfFRi-EWbA25hrE2pi6Ed1fUN9yq2rv-0F17TzcZfKOScHqcpvdblOZg1sFQvq_io2IUfjW8h-qOBMw49xNV-9cVZ9XXcIaJzZoa5zMXnlvAKLjWz1vtEhB-o3h4Oe3hpUTc6aidq0CAGhSMlnbsmFXLQNx_W-nZ-jZ6D9ZYKg
+  types:
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment
+- formatted_address: '1600 Shattuck Ave #100, Berkeley, CA 94709, United States'
+  geometry:
+    location:
+      lat: 37.87799040000001
+      lng: -122.2692334
+    viewport:
+      northeast:
+        lat: 37.8793438302915
+        lng: -122.2678208197085
+      southwest:
+        lat: 37.8766458697085
+        lng: -122.2705187802915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: 9aa287f921cc7ec59872debe241b942870995d6a
+  name: Philz Coffee
+  opening_hours:
+    open_now: true
+    weekday_text: []
+  photos:
+  - height: 4032
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/109441861727495612068/photos">Rebecca
+      Brown</a>
+    photo_reference: CmRaAAAAa_N8s8xXBrJbI0dLlP7ojZo_OOVxvq1-oWutXPj_Bq69ZfdsjkvfJ3lXs2GKux9X0fGrK8g3x-l2q36V3mJQFu8YEYzl_HWhJR3jtSXmExTYVg0KqtFWBi9JpMy37uAeEhATZgn7YN27wkdoiN6WNqPUGhSnrhd21XbNsbSkaeKuS2uRIrWh1w
+    width: 3024
+  place_id: ChIJd0eXDqF-hYAR1sTtm0QQ6VU
+  price_level: 1
+  rating: 4.6
+  reference: CmRRAAAAaSvxS9Fsd3oeLHyHQ-YPIXksi2zm_e9uME11ZjZp-9CzTxDyLNkNa7BMFoSd01UpCGeQwiW8S1xoWyMP12G4HaDl0Vurj3j93Kg4vlNA_Ikh3h5SVi0zJDzqj2mRvO11EhDHNfK5qrxaHpci51pJHp7jGhQMOPrMnSOlSWgqeP98Z47mHb4SjQ
+  types:
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment
+- formatted_address: 118 Paseo De San Antonio Walk, San Jose, CA 95112, United States
+  geometry:
+    location:
+      lat: 37.3336067
+      lng: -121.8848985
+    viewport:
+      northeast:
+        lat: 37.3350261802915
+        lng: -121.8835592197085
+      southwest:
+        lat: 37.3323282197085
+        lng: -121.8862571802915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: 683e55a1e9fb74d0ebddd239e48c46942d960468
+  name: Philz Coffee
+  opening_hours:
+    open_now: true
+    weekday_text: []
+  photos:
+  - height: 3024
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/107651363527543844794/photos">Jonas
+      Gebhardt</a>
+    photo_reference: CmRaAAAAusN4nsaDRl7jtJeCPrGCxFZh20mD_UQFwJTJYh9c636gdxKdFTBN9GCoLnu9sxmcHhWRM2OvGQ5ddcoeFfW3N_iTNyJOm-7fG2vH0xtrYBFe1ULkXREZrcYpI-yZpBSyEhA0ztQBbsDFZfWoJAt9f6v_GhSvm9KGqtCnzYreq02rTOPVsQoi9A
+    width: 4032
+  place_id: ChIJt_gW1bvMj4AR6XY_0N9JiqQ
+  price_level: 1
+  rating: 4.6
+  reference: CmRSAAAAUFEH9RGye6yvP_lJsBiXVcDVVX_M-y9XrX9vSYmJXxFXp35GGk7rGoFvm2gWyXFlx9f3RM_tl0egJoIC3gJwJ1N49mWVaTZl4gR9Dr5YOgJbIiihePtnmQdCUbvJaUhNEhCV-Fb5MZkSowoYvtbF6dK0GhTqZl08PlZy2Xbqp1NFFD2ZHMQZtA
+  types:
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment
+- formatted_address: 3191 Middlefield Rd, Palo Alto, CA 94306, United States
+  geometry:
+    location:
+      lat: 37.4295794
+      lng: -122.1227083
+    viewport:
+      northeast:
+        lat: 37.4308194302915
+        lng: -122.1214636697085
+      southwest:
+        lat: 37.4281214697085
+        lng: -122.1241616302915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: 6e7cea28a8974266b494a9b3ee9442246506b34a
+  name: Philz Coffee
+  opening_hours:
+    open_now: true
+    weekday_text: []
+  photos:
+  - height: 3456
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/108320224573839197933/photos">Randy
+      F.</a>
+    photo_reference: CmRaAAAAPjdcCNEmmYacdlE6SQUqF6fdBTT2BGKOzfWgBuKlUlh5fi8IsjL2r7dEO1mjHnCWTCyDfh4XYZ2Vlu6F_aU6fXlcE7PS7aH2QJq7DzgBMdQH8LPaLa-EBKAwdmp3S_rqEhC5XAHDPKBMAPXYF8gJBXybGhQw9xdx8atM_7tnr8ZwomxIo4GG_A
+    width: 4608
+  place_id: ChIJq85YxVu6j4ARRnVyGDBbbtk
+  price_level: 1
+  rating: 4.6
+  reference: CmRSAAAAG2xEo0_mVKk1BGXrqgo4j2xKsfyHVgRPHCm_gHqUj-Ueqxc4kfTk24DJ1kLOrwmZxWBSdO5f-weI0YLe2RoY4_m5HOnro8yVKDgEu38pmRkwOLZM_2cNpkKRBAJGHTuZEhCnod9Y5jSoDS3QB3NGrYbPGhSBEXvWZFhCC7Ks-vKd0KgDUZWM4A
+  types:
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment
+- formatted_address: 101 Forest Ave, Palo Alto, CA 94301, United States
+  geometry:
+    location:
+      lat: 37.442147
+      lng: -122.161527
+    viewport:
+      northeast:
+        lat: 37.4434474802915
+        lng: -122.1601019697085
+      southwest:
+        lat: 37.4407495197085
+        lng: -122.1627999302915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: c6be1baaa27b31cf1ee5cec7b2bb5292146032c6
+  name: Philz Coffee
+  opening_hours:
+    open_now: true
+    weekday_text: []
+  photos:
+  - height: 3036
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/102686762009559066705/photos">Christian
+      Steinruecken</a>
+    photo_reference: CmRaAAAAx6vOP80I8B7hwUYdEX9gC5v-ULyWG0z9dH2vIEhyMYD3mlc8NFV22lh2jYASofUkHdpWOBhHiAmlIuUJhWjwGF2EebO_pSChjjW8k_1p0BBG_a9yv5yDpnqfH4-xdSETEhD1_6dYQ-2wSyYRSfXiNaHOGhT-xXmjcLoJPrEIeGgcN9yJTUswxw
+    width: 4048
+  place_id: ChIJlcwEXzq7j4ARcTuyVs0riyM
+  price_level: 1
+  rating: 4.6
+  reference: CmRRAAAAQLN-tUVD8WPQuS2LJPIQ-wmnFYdvCZsq9I0xEViTrLCL7li_vU721XgEGcen6CqHeKAKbfqPVwSCZ-0cr2U9givcMXxt5NjG9WjqfCdTuZnJRcso_vdRAyx-5hk-wDFeEhBx_Z103WcAHV4Td_smPa1VGhSgoJdrFl67oanq7ZpTSBG3gNqgCg
+  types:
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment
+- formatted_address: 20686 Stevens Creek Blvd, Cupertino, CA 95014, United States
+  geometry:
+    location:
+      lat: 37.32255310000001
+      lng: -122.0347002
+    viewport:
+      northeast:
+        lat: 37.3240399302915
+        lng: -122.0333512197085
+      southwest:
+        lat: 37.3213419697085
+        lng: -122.0360491802915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: 5f87734057703da67a25ca313d39e91d738a9401
+  name: Philz Coffee
+  opening_hours:
+    open_now: true
+    weekday_text: []
+  photos:
+  - height: 3456
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/104111246635874032234/photos">ZAGAT</a>
+    photo_reference: CmRaAAAAPfq44E7yxT_xd2VuLN97NfrPxnu7suMAIGeJ3YFFsmgYM5Zb0h-6oWNzWpvDYf3e3ZZ1ujifbwkCdCfuI77GOPuLytNTTjvg9KDsYpujz0dDjykd4iDhttnNdKVa645-EhAYiCUMFRMeIvznPWiIVwpfGhTvB13VsVB_YuPysAsJMUbYSk6XCQ
+    width: 5184
+  place_id: ChIJb7yWuq21j4AR50U0ovaoH0s
+  price_level: 1
+  rating: 4.5
+  reference: CmRRAAAAmOTHcukznVFkZ8WHIApy7VwVniaSThqVsfzQNAH669ELKLdCcA4hFv2z70cI6qrkXe3KFsdBocV1sHRxwl5wsZq7AXGwT-FG5dqJZnS4tTRyG_hRb5yJ6xSBjg8QKhVHEhDQWVSuDxHgtS1Xqc7I7IpGGhS7i48ZjY7NLc7FIHuHWcKz95dKGQ
+  types:
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment
+- formatted_address: 2521 W Chicago Ave, Chicago, IL 60622, United States
+  geometry:
+    location:
+      lat: 41.89555379999999
+      lng: -87.6901849
+    viewport:
+      northeast:
+        lat: 41.8969758302915
+        lng: -87.6888370697085
+      southwest:
+        lat: 41.8942778697085
+        lng: -87.6915350302915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: 63d59539719f25c89b7dadeca4a134c2642e2438
+  name: Star Lounge Coffee Bar
+  opening_hours:
+    open_now: true
+    weekday_text: []
+  photos:
+  - height: 480
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/107507093466436025641/photos">Star
+      Lounge Coffee Bar</a>
+    photo_reference: CmRaAAAANpOTiCMhC3oGaCWIZVREeNVIDuRc_sVvPoXtBaVGi9PuJGcWXqmJqhDYSsoaapZATHxFymBXpJaF2YQ_d_gvyp4v0_5edyN8iQyEttxfPUYTtygX3-7p4My0NN9i3GiSEhBDlHrPA9YjonJJrwLw0XBbGhTdL67q2Rylq5z4vIDJWn0KYbUaJw
+    width: 480
+  place_id: ChIJbRig2FItDogRLoRJJB0HMBM
+  price_level: 1
+  rating: 4.7
+  reference: CmRRAAAAcbLfH40wic_wGQTpFtLlatBRhTPN02GTP4Sfyp98Gsh99U2Gzgg_ouq9x1QImPaS490fj6-DWQ8aDr9YgnzrkiSMJX-pK5ZM8N-8hFrW8bACkqd2ElJPREKcj6MjxZ5fEhCwNY78XlKtAOQkskeS3Mn_GhQxyXmdSY7lsjcQgkQSTqDr78H4OQ
+  types:
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment
+- formatted_address: 601 W Jackson Blvd, Chicago, IL 60661, Chicago, IL 60661, United
+    States
+  geometry:
+    location:
+      lat: 41.87773199999999
+      lng: -87.642951
+    viewport:
+      northeast:
+        lat: 41.8790809802915
+        lng: -87.64160201970849
+      southwest:
+        lat: 41.8763830197085
+        lng: -87.6442999802915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: c8158dcf06f2c2f37dc1b9366ba91a1f8038e01e
+  name: Meddle Coffee Bar
+  opening_hours:
+    open_now: true
+    weekday_text: []
+  photos:
+  - height: 1365
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/110891070785996885518/photos">Meddle
+      Coffee Bar</a>
+    photo_reference: CmRaAAAAPYSoekPUvKAcjvFe445PSgROco0fAnoYfOhU_0ENOTefSbIHH15WsuClzKE9eeL3aM6KOqTqgjJbJOln5QKLbgTS1Cvidr-TUJmLdXyd3hhsiO7KdajOIAHzOjNiYqzWEhDGyqjGTQSCTjqeUmbDrYd9GhTkig1PVrR1eI7TsvVkP7qVLz1GNg
+    width: 2048
+  place_id: ChIJw0YxhMEsDogRnVTN2Jz10ec
+  price_level: 1
+  rating: 4.7
+  reference: CmRSAAAAvNu4K7JqRW_7CMuYRnxwO6_-cK4j5RVH-p2J8jt1h4c63h6cKvw9w9i205aX9IMVtsHOgwtnuLHqZXNAUQ4VaNNZhDxzn8AGnrOAswSU-M3MPmgHJdPtPQo8elQc0IkpEhAy0CTTZ7rBd-1zyh2cnp4eGhT4BPpCOz4SOUYEyBSB080iEfq25w
+  types:
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment
+- formatted_address: 5628 N Clark St, Chicago, IL 60640, United States
+  geometry:
+    location:
+      lat: 41.984294
+      lng: -87.66910800000001
+    viewport:
+      northeast:
+        lat: 41.9856528802915
+        lng: -87.6676662197085
+      southwest:
+        lat: 41.9829549197085
+        lng: -87.6703641802915
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: f5c353a9c27bdf08ee10681b00f33556a7784157
+  name: The Coffee Studio
+  opening_hours:
+    open_now: true
+    weekday_text: []
+  photos:
+  - height: 577
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/100851871672435926528/photos">The
+      Coffee Studio</a>
+    photo_reference: CmRZAAAAO5Nr2mSvEXhDb33hpRw6-svuMYG9v3okt3-HKC13liChZBFMStjTSEszXdSHsKoqg788ptj5SVZE8dz-zshZMfseRNudMIrlMSh_tAH0F0-hc3_JuB5zsdzWSDsKaZzAEhAKYHYPsAZ4Fj4XSNr2sJOjGhR7lMR73cn0YlzDHwGs6N-lB6lmGg
+    width: 577
+  place_id: ChIJyZ3T64_RD4gRpqjT3634WIk
+  price_level: 2
+  rating: 4.3
+  reference: CmRSAAAAfUmXDGnqjMDWaCmgsBJ-fBtBQL-g1lrQ-I2BCnJayETh4N9fpHwikwEVud3W2sRyip9k4QqY32aTItPWxkmKbYH1sgiG6HBMoqqaBpnjy1G78_bZT2Tr9sMyVh4AusV2EhDtLN4NBZJz8G7mxksWyYOKGhSo5w27CVgGar9moibAr8p8pz4-Fw
+  types:
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment
+- formatted_address: 14 Witherspoon St, Princeton, NJ 08540, United States
+  geometry:
+    location:
+      lat: 40.3501168
+      lng: -74.66023659999999
+    viewport:
+      northeast:
+        lat: 40.3514990802915
+        lng: -74.65875446970848
+      southwest:
+        lat: 40.3488011197085
+        lng: -74.66145243029149
+  icon: https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png
+  id: e59874a0467f15df267ebad5f97a71bda87350c5
+  name: Small World Coffee
+  opening_hours:
+    open_now: true
+    weekday_text: []
+  photos:
+  - height: 3024
+    html_attributions:
+    - <a href="https://maps.google.com/maps/contrib/114349756281690399637/photos">Jimit
+      Majithia</a>
+    photo_reference: CmRaAAAAayOQKyc6pz2nknIKXzxRBXHDBrMHkvJHJrcTEq0WsUQt9tFgQO4YoQRLz3f2wjz5XLArXWA3HglwhClqd5nkTcRH2m0a3mtTEOUhsp8F57Yp4Sq9MISOyUfjt0BL4QDsEhBlb9Dl0943Egud-dEZNQyyGhRZ14nqUoOtQNNnE_kbiVbxZ8G5_w
+    width: 4032
+  place_id: ChIJxdNu5ufmw4kRUfZbF5sZMQg
+  rating: 4.5
+  reference: CmRRAAAAfqjWz0mcUSd68PNCsN0M-CdN2xxp-NnI_WEdKm3G5dUzcZ8JxaoLIeLLHpG8KZvRbLBI2yeuGvHETvXo679wOPQm3HHf2TtGZ_Fg0hYYv9Y_p-VS6Z6lWlwQn1wrUOQMEhAJgdOamBkp_B8MwBqn3CnvGhRGCNJz0RgJ0MoYioVmQzsnHBHlgQ
+  types:
+  - cafe
+  - food
+  - store
+  - point_of_interest
+  - establishment

@@ -53,7 +53,7 @@ CSV.foreach(file, headers: true) do |row|
       city = City.new
       city.name = row[1]
       city.zip_codes = zip_codes
-      city.population = row[9]
+      city.population = row[9] || 0
       city.county = county
       city.state = state
 

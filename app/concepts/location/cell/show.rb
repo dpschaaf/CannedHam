@@ -1,5 +1,5 @@
 module Location::Cell
-  class Show < CannedHam::Cell
+  class Show < CannedHam::MyCell
     def readable_name
       "Steve"
     end
@@ -11,6 +11,18 @@ module Location::Cell
         City.where(county_id: model.county_id)
       else
         County.where(state_id: model.state_id)
+      end
+    end
+
+    def place
+      if model.city_id
+        model.city.lat_long
+      elsif model.county_id
+        City.where(county_id: model.county_id).lat_long
+      else
+        county = County.where(state_id: model.state_id).first
+        city = county.cities.sort_by(&:population).first
+        city.lat_long
       end
     end
   end

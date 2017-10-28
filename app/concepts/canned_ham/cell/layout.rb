@@ -1,5 +1,7 @@
-class CannedHam::Cell
-  class Layout < Cell
-    include ActionView::Helpers::CsrfHelper
+module CannedHam
+  module Cell
+    class Layout < MyCell
+      include ActionView::Helpers::CsrfHelper
+    end
   end
 end

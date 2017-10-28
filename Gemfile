@@ -18,6 +18,8 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 
+gem 'httparty'
+
 gem 'slim-rails'
 gem 'trailblazer-cells'
 gem 'cells-slim'
@@ -38,6 +40,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.6'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'pry-byebug'
+  gem 'pry-remote'
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'

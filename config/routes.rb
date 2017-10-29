@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   resources :seo_landing_pages, only: [:show]
   resources :places, only: [:show]
 
-  # get '/*path', to: 'seo_landing_pages#show', format: false
+  get '/*path', to: 'seo_landing_pages#show'
 end

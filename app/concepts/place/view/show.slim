@@ -1,9 +1,9 @@
 - options[:parsed_results].each do |result|  
   h3
-    a href="#{result[:url]}" = result[:name]
+    a href="#{result[:url]}" target='_blank' = result[:name]
   = result[:address_html]
   p 
-    a href="#{result[:url]}" Website
+    a href="#{result[:url]}" target='_blank' Check latest prices
   p
     a href="#{result[:google_maps_url]}" Directions
 

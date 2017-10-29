@@ -1,0 +1,6 @@
+address {
+  .locality:before {
+    content:"\000A";
+    white-space: pre;
+  }
+}

@@ -1,4 +1,4 @@
 footer.blog-footer
-  - footer_group.sort_by(&:name).each do |state|
-    p
-      a href="/#{state.seo_landing_pages.first.path}" = state.name
+  nav.nav.justify-content-center
+    - footer_group.sort_by(&:name).each do |state|
+      a.nav-link.text-secondary.p-1 href="/#{state.seo_landing_pages.first.path}" = state.name

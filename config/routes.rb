@@ -1,13 +1,11 @@
 Rails.application.routes.draw do     
-  resources :counties
-  resources :states
-  resources :cities
-  resources :locations
+  root to: 'home#index'
+
+  resources :cities, only: [:show]
+  resources :counties, only: [:show]
+  resources :states, only: [:show]
   resources :seo_landing_pages, only: [:show]
   resources :places, only: [:show]
 
-  
-  root to: 'home#index'
-
-  get '/*path', to: 'seo_landing_pages#show'
+  # get '/*path', to: 'seo_landing_pages#show', format: false
 end

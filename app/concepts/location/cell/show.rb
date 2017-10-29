@@ -24,6 +24,8 @@ module Location::Cell
         city = county.cities.sort_by(&:population).first
         city.lat_long
       end
+    rescue StandardError => error
+      # puts error.backtrace
     end
   end
 end

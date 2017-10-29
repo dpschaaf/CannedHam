@@ -16,7 +16,14 @@ main.container role='main'
         h2.blog-post-title Search
         p.blog-post-meta October 21, 2017
 
-        div.js-places data-url="#{place_path(place.to_param)}"
+        div data-url="#{place_path(place.to_param)}"
+          address.d-block
+            <span class="street-address">118 Paseo De San Antonio Walk</span>, <span class="locality">San Jose</span>, <span class="region">CA</span> <span class="postal-code">95112</span>, <span class="country-name">USA</span>
+          div.alert.alert-info
+            strong Searching 
+            | for the best scrap metal buyers near you
+          div.progress
+            div.progress-bar.progress-bar-striped.progress-bar-animated role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"
       article#prices.blog-post
         h2.blog-post-title Prices
         p.blog-post-meta October 21, 2017
@@ -40,7 +47,11 @@ main.container role='main'
         p Check back daily for the latest scrap metal prices.
       div.sidebar-module
         h4 Other scrap metal prices
-        a href='#' Copper
-        a href='#' Steel
-        a href='#' Iron
+        ul
+          li
+            a href='#' Copper
+          li
+            a href='#' Steel
+          li
+            a href='#' Iron
 = cell(CannedHam::Cell::Footer, nil, footer_group: footer_group)

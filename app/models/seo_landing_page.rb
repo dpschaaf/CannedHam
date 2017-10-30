@@ -5,6 +5,10 @@ class SeoLandingPage < ApplicationRecord
 
   validates_uniqueness_of :path
 
+  def to_param
+    path
+  end
+
   def self.create_from_state(state)
     # /state-name
     seo_landing_page = SeoLandingPage.new

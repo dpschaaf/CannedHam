@@ -19,6 +19,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 gem 'httparty'
+gem 'sitemap_generator'
 
 gem 'slim-rails'
 gem 'trailblazer-cells'

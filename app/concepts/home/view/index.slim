@@ -15,18 +15,7 @@ main.container role='main'
         h2.blog-post-title Prices
         p.blog-post-meta October 21, 2017
         p The below prices are 
-        table.table
-          thead
-            tr
-              th Type of Aluminum
-              th Price per pound (lb)
-          tbody
-            tr
-              td Aluminum scrap
-              td $0.97
-            tr
-              td Aluminum cans
-              td $0.53
+        = cell(CannedHam::Cell::Pricing, nil)
     aside.col-sm-3.ml-sm-auto.blog-sidebar
       div.sidebar-module.sidebar-module-inset
         h4 About

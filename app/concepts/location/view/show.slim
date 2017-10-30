@@ -5,8 +5,7 @@ main.container role='main'
       article#intro.blog-post
         h2.blog-post-title Introduction
         p.blog-post-meta
-        p 
-          | This site is dedicated to tracking current scrap aluminum prices in #{readable_name} and across the United States. We connect directly with the largest scrap metal buyers in Texas, California, New York, Florida, Alabama, New Jersey, Mississippi, Colorado and many other states. We want you to get the best price for your scrap! Scrap prices can vary widely across the country, so check back often for the latest news, analysis and prics for aluminum scrap. Sign up to our newsletter to get the most up to date prices delivered directly to you.
+        p This site is dedicated to tracking current scrap aluminum prices across the United States. We connect directly with the largest scrap metal buyers in Texas, California, New York, Florida, Alabama, New Jersey, Mississippi, Colorado and many other states. We want you to get the best price for your scrap! Scrap prices can vary widely across the country, so check back often for the latest news, analysis and prics for aluminum scrap. Sign up to our newsletter to get the most up to date prices delivered directly to you.
       article#scrap-yards.blog-post
         h2.blog-post-title Scrap Yards
         p.blog-post-meta October 21, 2017
@@ -15,11 +14,11 @@ main.container role='main'
       article#places.blog-ppost
         h2.blog-post-title Search
         p.blog-post-meta October 21, 2017
-
         div data-url="#{place_path(place.to_param)}"
           address.d-block
             <span class="street-address">118 Paseo De San Antonio Walk</span>, <span class="locality">San Jose</span>, <span class="region">CA</span> <span class="postal-code">95112</span>, <span class="country-name">USA</span>
           div.alert.alert-info
+            p We track all the scrap metal buyers across the US to find the best prices for you. Prices can vary significntly from one buyer to the next
             strong Searching 
             | for the best scrap metal buyers near you
           div.progress
@@ -28,19 +27,7 @@ main.container role='main'
         h2.blog-post-title Prices
         p.blog-post-meta October 21, 2017
         p The below prices are 
-
-        table.table
-          thead
-            tr
-              th Type of Aluminum
-              th Price per pound (lb)
-          tbody
-            tr
-              td Aluminum scrap
-              td $0.97
-            tr
-              td Aluminum cans
-              td $0.53
+        = cell(CannedHam::Cell::Pricing, nil)
     aside.col-sm-3.ml-sm-auto.blog-sidebar
       div.sidebar-module.sidebar-module-inset
         h4 About

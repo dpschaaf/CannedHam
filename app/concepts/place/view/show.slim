@@ -1,7 +1,8 @@
 - options[:parsed_results].each do |result|  
   h3
     a href="#{result[:url]}" target='_blank' = result[:name]
-  = result[:address_html]
+  address.d-block
+    = result[:address_html]
   p 
     a href="#{result[:url]}" target='_blank' Check latest prices
   p

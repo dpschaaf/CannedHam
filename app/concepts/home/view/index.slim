@@ -6,16 +6,26 @@ main.container role='main'
         h2.blog-post-title Introduction
         p.blog-post-meta
         p This site is dedicated to tracking current scrap aluminum prices across the United States. We connect directly with the largest scrap metal buyers in Texas, California, New York, Florida, Alabama, New Jersey, Mississippi, Colorado and many other states. We want you to get the best price for your scrap! Scrap prices can vary widely across the country, so check back often for the latest news, analysis and prics for aluminum scrap. Sign up to our newsletter to get the most up to date prices delivered directly to you.
+
+      article#cans.blog-post
+        h2.blog-post-title Aluminum can scrap
+        p.blog-post-meta
+        p Aluminum cans are a great and common source of scrap aluminum. This includes all sorts of beverage cans like soda or beer cans. Scrap buyers will buy your scrap aluminum by the pound our you can turn them in at recycling centers to be purchased by the can.
+
+        p Scrap yards buy cans at a lower price than other aluminum scraps. The thin material has a higher tendency to oxidize and therefore has a lower yield when melting back down.
+
       article#scrap-yards.blog-post
         h2.blog-post-title Scrap Yards
         p.blog-post-meta October 21, 2017
         p We checked your area for local scrap yards to sell your aluminum scrap. This is what we found:
         iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=scrap%20metal%20near%20San%20Francisco%2C%20CA&key=AIzaSyCfvfTfpGeE108CeTMY3l-uYlKaLIVpUJo&zoom=10" allowfullscreen=""
+
       article#prices.blog-post
         h2.blog-post-title Prices
-        p.blog-post-meta October 21, 2017
-        p The below prices are 
+        p.blog-post-meta = Date.today.to_formatted_s(:long)
+        p We searched the internet and your area to find the latest scrap aluminum prices. This is what we found:
         = cell(CannedHam::Cell::Pricing, nil)
+
     aside.col-sm-3.ml-sm-auto.blog-sidebar
       div.sidebar-module.sidebar-module-inset
         h4 About

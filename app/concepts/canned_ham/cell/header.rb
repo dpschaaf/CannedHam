@@ -1,6 +1,7 @@
 module CannedHam
   module Cell
-    class Header < MyCell
+    class Header < Trailblazer::Cell
+      include ActionView::Helpers::TranslationHelper
     end
   end
 end

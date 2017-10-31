@@ -1,6 +1,6 @@
 module Place
   module Cell
-    class Show < CannedHam::MyCell
+    class Show < Trailblazer::Cell
     end
   end
 end

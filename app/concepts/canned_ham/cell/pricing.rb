@@ -1,6 +1,6 @@
 module CannedHam
   module Cell
-    class Pricing < MyCell
+    class Pricing < Trailblazer::Cell
     end
   end
 end

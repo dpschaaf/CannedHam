@@ -1,4 +1,4 @@
-= cell(CannedHam::Cell::Header, nil)
+
 main.container role='main'
   div.row
     div.col-sm-8.blog-main
@@ -14,11 +14,14 @@ main.container role='main'
 
         p Scrap yards buy cans at a lower price than other aluminum scraps. The thin material has a higher tendency to oxidize and therefore has a lower yield when melting back down.
 
-      article#scrap-yards.blog-post
-        h2.blog-post-title Scrap Yards
-        p.blog-post-meta October 21, 2017
-        p We checked your area for local scrap yards to sell your aluminum scrap. This is what we found:
-        iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=scrap%20metal%20near%20San%20Francisco%2C%20CA&key=AIzaSyCfvfTfpGeE108CeTMY3l-uYlKaLIVpUJo&zoom=10" allowfullscreen=""
+      article#states.blog-post
+        h2.blog-post-title Sell your scrap aluminum in your state
+        p Find your state in the list below to get up to date information near you.
+        ul
+          - State.find_each do |state|
+            li
+              a href=state_path(state) state.name
+
 
       article#prices.blog-post
         h2.blog-post-title Prices
@@ -31,4 +34,4 @@ main.container role='main'
         h4 About
         p Check back daily for the latest scrap metal prices.
       div.sidebar-module
-= cell(CannedHam::Cell::Footer, nil)
+/ = cell(CannedHam::Cell::Footer, nil)

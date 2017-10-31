@@ -4,6 +4,11 @@ class StatesController < ApplicationController
   # GET /states/1
   # GET /states/1.json
   def show
+    render html: cell(Location::Cell::Show, state, nil)
+    render html: cell(Location::Cell::Show, seo_landing_page,
+      layout: CannedHam::Cell::Layout,
+      footer_group: footer_group)
+  end
   end
 
   private

@@ -1,6 +1,6 @@
 module CannedHam
   module Cell
-    class Layout < MyCell
+    class Layout < Trailblazer::Cell
       include ActionView::Helpers::CsrfHelper
     end
   end

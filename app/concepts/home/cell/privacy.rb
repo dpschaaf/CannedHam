@@ -1,9 +1,6 @@
 module Home
   module Cell
-    class Privacy < CannedHam::MyCell
-      def footer_group
-        State.all
-      end
+    class Privacy < Trailblazer::Cell
     end
   end
 end

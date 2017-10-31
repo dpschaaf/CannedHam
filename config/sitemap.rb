@@ -24,6 +24,8 @@ SitemapGenerator::Sitemap.create do
   #   Article.find_each do |article|
   #     add article_path(article), :lastmod => article.updated_at
   #   end
+  add privacy_path
+  add contact_path
 
   SeoLandingPage.find_each do |page|
     add "/#{page.path}", :lastmod => page.updated_at

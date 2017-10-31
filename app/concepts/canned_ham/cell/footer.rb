@@ -1,8 +1,8 @@
 module CannedHam
   module Cell
-    class Footer < MyCell
+    class Footer < Trailblazer::Cell
       def footer_group
-        context[:footer_group] || State.all
+        options[:footer_group] || State.all
       end
     end
   end

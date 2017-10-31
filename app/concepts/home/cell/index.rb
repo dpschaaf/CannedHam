@@ -1,9 +1,6 @@
 module Home
   module Cell
-    class Index < CannedHam::MyCell
-      def footer_group
-        State.all
-      end
+    class Index < Trailblazer::Cell
     end
   end
 end

@@ -4,4 +4,9 @@ class HomeController < ApplicationController
       layout: CannedHam::Cell::Layout
       )
   end
+  def privacy
+    render html: cell(Home::Cell::Privacy, nil,
+      layout: CannedHam::Cell::Layout
+      )
+  end
 end

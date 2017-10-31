@@ -7,5 +7,7 @@ Rails.application.routes.draw do
   resources :seo_landing_pages, only: [:show]
   resources :places, only: [:show]
 
+  get '/privacy', to: 'home#privacy', as: :privacy
+
   get '/*path', to: 'seo_landing_pages#show'
 end
